@@ -1,0 +1,49 @@
+/* {font-family: 'Henny Penny', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Butterfly Kids', cursive;}*/
+
+.cbp-af-header-shrink{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.fill-screen{
+    margin-top:6.15%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color:white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(233, 233, 245, 0);
+} 
+
+@media(max-width: 990px)
+{
+  .navbar-header{
+    width:100%;
+  }
+}
+
+@media(max-width:500px)
+{
+   #navImage{
+     height:70%;
+     width:70%;
+   }
+
+   /*.custom-toggler.navbar-toggler-icon{
+     width:70%;
+     height:70%;
+   }*/
+
+}
+
